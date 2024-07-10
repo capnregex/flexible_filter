@@ -1,0 +1,43 @@
+{
+  "name": "flexible_filter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A Flexible Filter UI",
+  "author": "Robert Ferney <rob@ferney.org>",
+  "homepage": "https://github.com/capnregex/flexible_filter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capnregex/flexible_filter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/capnregex/flexible_filter/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "module": "dist/flexible_filter.js",
+  "main": "dist/flexible_filter.js",
+  "files": [
+    "dist/flexible_filter.js"
+  ],
+  "scripts": {
+    "clean": "rm -fr dist",
+    "build": "esbuild",
+    "lint": "eslint .",
+    "format": "yarn lint --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@stylistic/eslint-plugin": "^2.3.0",
+    "esbuild": "^0.23.0",
+    "eslint": "9.x",
+    "globals": "^15.8.0",
+    "jest": "^29.7.0",
+    "sass": "^1.77.7",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "stimulus": "^3.2.2"
+  }
+}

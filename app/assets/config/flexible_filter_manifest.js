@@ -1,1 +1,1 @@
-//= link_directory ../stylesheets/flexible_filter .css
+// = link_directory ../stylesheets/flexible_filter .css

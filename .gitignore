@@ -6,4 +6,5 @@
 /dummy/log/*.log
 /dummy/storage/
 /dummy/tmp/
+/node_modules/
 .*.sw?
