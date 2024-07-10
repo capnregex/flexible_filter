@@ -5,13 +5,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gemspec
 
 gem "puma"
-
 gem "pg"
-
 gem "sprockets-rails"
-
-# Start debugger with binding.b [https://github.com/ruby/debug]
-# gem "debug", ">= 1.0.0"
 gem "draper"
 gem "kaminari"
 gem "view_component"
@@ -19,6 +14,8 @@ gem "simple_form"
 gem "ransack"
 
 group :development, :test do
+  # Start debugger with binding.b [https://github.com/ruby/debug]
+  # gem "debug", ">= 1.0.0"
   gem "rspec-rails"
   gem "factory_bot_rails"
 end
