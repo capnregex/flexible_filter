@@ -22,3 +22,5 @@ end
 
 group :development do
 end
+
+gem "data_imp", "~> 0.3.0", :groups => [:development, :test]
