@@ -5,18 +5,18 @@ Gem::Specification.new do |spec|
   spec.version     = FlexibleFilter::VERSION
   spec.authors     = ["Robert Ferney"]
   spec.email       = ["rob@ferney.org"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of FlexibleFilter."
-  spec.description = "TODO: Description of FlexibleFilter."
+  spec.homepage    = "https://github.com/capnregex/flexible_filter"
+  spec.summary     = "Provides An interface for more flexible user specified filtering"
+  # spec.description = "Description of FlexibleFilter."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the "allowed_push_host"
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "#{spec.homepage}/releases/tag/v#{spec.version}"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

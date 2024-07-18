@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    flexible_filter (0.1.0)
+    flexible_filter (0.0.1)
       rails (>= 7.1.3.4)
 
 GEM
@@ -56,6 +56,8 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
+    active_record_has (0.1.2)
+      activerecord (>= 7.1)
     activejob (7.1.3.4)
       activesupport (= 7.1.3.4)
       globalid (>= 0.3.6)
@@ -254,6 +256,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  active_record_has (~> 0.1.2)
   data_imp (~> 0.3.0)
   draper
   factory_bot_rails

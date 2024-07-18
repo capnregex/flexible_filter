@@ -18,9 +18,11 @@ group :development, :test do
   # gem "debug", ">= 1.0.0"
   gem "rspec-rails"
   gem "factory_bot_rails"
+  gem "data_imp", "~> 0.3.0"
 end
 
 group :development do
 end
 
-gem "data_imp", "~> 0.3.0", :groups => [:development, :test]
+
+gem "active_record_has", "~> 0.1.2"
