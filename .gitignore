@@ -8,3 +8,4 @@
 /dummy/tmp/
 /node_modules/
 .*.sw?
+*.gem

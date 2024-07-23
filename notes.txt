@@ -1,0 +1,7 @@
+Article.reflections['category']
+reflection.klass.arel_table[reflection.join_primary_key].eq(reflection.active_record.arel_table[reflection.join_foreign_key]).to_sql
+
+3.3.3 :010 > puts Article.where(category: Category.where(name: 'Food')).to_sql
+SELECT "articles".* FROM "articles" WHERE "articles"."category_id" IN (SELECT "categories"."id" FROM "categories" WHERE "categories"."name" = 'Food')
+ => nil 
+
